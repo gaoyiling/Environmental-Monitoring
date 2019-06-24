@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\ENVIRONMENT -I ..\RS485 -I ..\SIM800C -I ..\WIND_DIRECTION -I ..\WIND_SPEED -I ..\LED-SCREEN -I ..\PARTICULATE_MATTER -I ..\DEVICE_CONFIG -I ..\SYSTEM\usart3 -I ..\SYSTEM\calc
+-I"C:\Users\admin\Desktop\yr\Environmental Monitoring\USER\RTE"
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\wind_direcrion.o --omf_browse ..\obj\wind_direcrion.crf --depend ..\obj\wind_direcrion.d "..\WIND_DIRECTION\wind_direcrion.c"
